@@ -1,0 +1,12 @@
+.magic-btn {
+    padding: 10px;
+    margin: 5px;
+    border-color: aqua;
+    background-color: aquamarine;
+}
+.site-nav {
+    list-style: none;
+}
+.site-nav__item {
+    margin: 10px
+}
