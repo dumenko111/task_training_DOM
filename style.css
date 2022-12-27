@@ -10,3 +10,6 @@
 .site-nav__item {
     margin: 10px
 }
+.site-nav__link-current {
+    color: green;
+}
