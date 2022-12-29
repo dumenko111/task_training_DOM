@@ -1,0 +1,38 @@
+export default [
+  {
+    id: '758d5283-358e-4fbb-b222-a17fd04e8916',
+    amount: '179.07',
+    date: '2012-02-01T22:00:00.000Z',
+    business: 'Bogan - DuBuque',
+    name: 'Auto Loan Account 7313',
+    type: 'deposit',
+    account: '19808943',
+  },
+  {
+    id: '400d5283-358e-4fbb-b222-a17fd04e8916',
+    amount: '930.87',
+    date: '2013-02-01T22:00:00.000Z',
+    business: 'Legros, Weimann and Treutel',
+    name: 'Auto Loan Account 0721',
+    type: 'invoice',
+    account: '38208943',
+  },
+  {
+    id: '6c0e5a78-358e-4fbb-b222-a17fd04e8916',
+    amount: '704.53',
+    date: '2012-02-01T22:00:00.000Z',
+    business: 'Beatty, Wisozk and Koch',
+    name: 'Savings Account 7313',
+    type: 'withdrawal',
+    account: '76728943',
+  },
+  {
+    id: '16bd2a9d-358e-4fbb-b222-a17fd04e8916',
+    amount: '656.81',
+    date: '2012-02-01T22:00:00.000Z',
+    business: 'Hane - Bode',
+    name: 'Personal Loan Account 2316',
+    type: 'withdrawal',
+    account: '27462350',
+  },
+]
