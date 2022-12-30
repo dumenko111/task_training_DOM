@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <ul>
+        <li><a href="./index.html">На головну</a></li>
+        <li><a href="./addEventListener.html">Крок назад на слухача подій</a></li>
+    </ul>
+
+
+    <!--Події сабміта форми-->
+<form class="js-register-form" autocomplete="off">
+    <div role="group">
+        <label>
+            Пошта
+            <input type="email" name="email" />
+        </label>
+        <label>
+            Пароль
+            <input type="password" type="password">
+        </label>
+    </div>
+
+    <br />
+    <div role="group">
+        <b>Тип підписки:</b>
+        <label>
+            <input type="radio" name="subscription" value="free" />
+            Free
+        </label>
+        <label>
+            <input type="radio" name="subscription" value="basic" />
+            Basic
+        </label>
+        <label>
+            <input type="radio" name="subscription" value="pro" />
+            Pro
+        </label>
+    </div>
+
+    <br />
+    <button type="submit">Зареєструватися</button>
+</form>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/forms.js" type="module"></script>
+</body>
+</html>
