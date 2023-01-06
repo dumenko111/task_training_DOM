@@ -10,9 +10,22 @@ form.addEventListener('submit',onFormSubmit)
 function onFormSubmit(event) {
     event.preventDefault()
     console.log('Сабміт форми')
+    // console.log(event)
 
-    const mailForm = event.currentTarget.elements.email.value
-    const mailPwd = event.currentTarget.elements.password.value
-    const subsripForm =event
-    console.log(mailForm, mailPwd)
+    // const mailForm = event.currentTarget.elements.email.value //повертає значення email
+    // const mailPwd = event.currentTarget.elements.password.value //повертає значення паролю
+    // const subsripForm = event.currentTarget.elements.subscription.value //повертає значення радіокнопки
+    // console.log(mailForm, mailPwd, subsripForm)
+
+
+    //----new FormData() зборщик для великої форми - повертає об'єкт
+    const formData = new FormData(event.currentTarget)//проходить по всіх інтерактивних елементах форми і збирає з них дані, які потім можна відправляти на сервер 
+    console.log(formData) //об'єкт порожній, але його можна перебрати forEach
+
+    formData.forEach((value, name) => {
+        console.log('name',name)
+        console.log('value', value)
+    })
 }
+
+
